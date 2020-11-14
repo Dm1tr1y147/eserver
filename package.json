@@ -1,9 +1,44 @@
 {
-  "name": "eserver",
-  "version": "1.0.0",
+  "name": "@dm1sh/eserver",
+  "version": "1.1.0",
   "description": "Simple express-like webserver",
-  "main": "dist/index.js",
-  "repository": "https://github.com/Dm1tr1y147/eserver",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c",
+    "prettier-format": "prettier --config .prettierrc 'src/**/*.ts' --write --fix",
+    "lint": "eslint . --ext .ts"
+  },
+  "repository": {
+    "url": "https://github.com/Dm1tr1y147/eserver",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/Dm1tr1y147/eserver.git"
+  },
+  "files": [
+    "lib"
+  ],
   "author": "dm1sh",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^4.0.5"
+  },
+  "devDependencies": {
+    "@rollup/plugin-eslint": "^8.0.0",
+    "@rollup/plugin-typescript": "^6.1.0",
+    "@types/node": "^14.14.7",
+    "@typescript-eslint/eslint-plugin": "^4.7.0",
+    "@typescript-eslint/parser": "^4.7.0",
+    "eslint": "^7.13.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-no-loops": "^0.3.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.1.2",
+    "rollup": "^2.33.1",
+    "rollup-pluginutils": "^2.8.2",
+    "ts-node": "^9.0.0",
+    "tslib": "^2.0.3"
+  }
 }

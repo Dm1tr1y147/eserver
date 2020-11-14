@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "ESNext",
+    "declaration": true,
+    "declarationMap": true,
+    "outDir": "./lib",
+    "rootDir": "./src",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "exclude": ["./example", "node_modules"],
+  "include": ["src/**/*"]
+}
