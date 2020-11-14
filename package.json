@@ -1,0 +1,9 @@
+{
+  "name": "eserver",
+  "version": "1.0.0",
+  "description": "Simple express-like webserver",
+  "main": "dist/index.js",
+  "repository": "https://github.com/Dm1tr1y147/eserver",
+  "author": "dm1sh",
+  "license": "MIT"
+}
